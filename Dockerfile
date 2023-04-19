@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22.10
 
 # Update SO
 RUN apt-get update && apt-get upgrade -y
